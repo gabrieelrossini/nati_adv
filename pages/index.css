@@ -1,3 +1,5 @@
+/* Configurações Gerais */
+
 body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
@@ -32,10 +34,12 @@ ul {
     padding: 0;
 }
 
+/* Configurações Header */
+
 .header {
     display: grid;
     justify-items: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .header_title {
@@ -63,4 +67,24 @@ ul {
     display: block;
     padding: 0.5rem 1rem;
     text-transform: uppercase;
+}
+
+/* Configurações Main */
+
+.main_foto {
+    border-radius: 4px;
+}
+
+.contact-info_nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+/* Configurações Footer */
+
+.footer_dev {
+    color: #AB9350;
 }
