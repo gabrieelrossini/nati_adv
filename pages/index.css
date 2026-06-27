@@ -21,6 +21,7 @@ a {
 
 p, h1, h2, h3 {
     margin:0;
+    color: #AB9350;
 }
 
 p {
@@ -43,11 +44,11 @@ ul {
 }
 
 .header_title {
-    color: #AB9350;
+    
 }
 
 .header_subtitle {
-    color: #AB9350;
+    
 }
 
 .header_nav {
@@ -70,6 +71,11 @@ ul {
 }
 
 /* Configurações Main */
+.main {
+    max-width: 1000px;
+    display: grid;
+    justify-items: center;
+}
 
 .main_foto {
     border-radius: 4px;
@@ -86,5 +92,5 @@ ul {
 /* Configurações Footer */
 
 .footer_dev {
-    color: #AB9350;
+   
 }
